@@ -38,7 +38,7 @@ This folder contains binary files, images, icons and other important data files 
     │   └── ...             # Etc.
     └── ...
 
-**Examples:**
+> Examples:
 [Visual Studio Code](https://github.com/microsoft/vscode) `resources`,
 [Kdenlive](https://github.com/KDE/kdenlive) `data`,
 [Gnome Nautilus](https://github.com/GNOME/nautilus) `data`.
@@ -57,7 +57,7 @@ This folder contains the documentation such as reference data into the project, 
     │   └── ...             # Etc.
     └── ...
 
-**Examples:**
+> Examples:
 [TypeScript](https://github.com/microsoft/TypeScript) `doc`,
 [Go Language](https://github.com/golang/go) `doc`,
 [Julia Language](https://github.com/JuliaLang/julia) `doc`,
@@ -82,7 +82,7 @@ Alternatively, you can put them into the `lib` (if you're developing a library),
     │   └── ...             # Etc.
     └── ...
 
-**Examples:**
+> Examples:
 [Visual Studio Code](https://github.com/microsoft/vscode) `src`,
 [TypeScript](https://github.com/microsoft/TypeScript) `src`,
 [Go Language](https://github.com/golang/go) `src`,
@@ -107,7 +107,7 @@ Automated tests are usually placed into the `test` or, less commonly, into the `
     │   └── ...             # Etc.
     └── ...
 
-**Examples:**
+> Examples:
 [Visual Studio Code](https://github.com/microsoft/vscode) `test`,
 [TypeScript](https://github.com/microsoft/TypeScript) `tests`,
 [Go Language](https://github.com/golang/go) `test`,
@@ -126,7 +126,7 @@ The text of a license is usually stored in the `LICENSE` (`LICENSE.txt`, `LICENS
 
 For more information on how to choose a license for an open-source project, please refer to <https://choosealicense.com>
 
-**Examples:**
+> Examples:
 [Visual Studio Code](https://github.com/microsoft/vscode) `LICENSE.txt`,
 [TypeScript](https://github.com/microsoft/TypeScript) `LICENSE.txt`,
 [Go Language](https://github.com/golang/go) `LICENSE`,
