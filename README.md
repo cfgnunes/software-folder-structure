@@ -11,7 +11,7 @@ Folder structure and naming conventions for software projects.
     ├── src                 # Source files (alternatively `lib` or `app`)
     ├── test                # Automated tests (alternatively `spec` or `tests`)
     ├── LICENSE             # License file (alternatively `LICENSE.txt`, `LICENSE.md` or `COPYING`)
-    └── README.md           # Read-me file (alternatively `README.txt`)
+    └── README.md           # Readme file (alternatively `README.txt`)
 
 ### The `build` folder
 
