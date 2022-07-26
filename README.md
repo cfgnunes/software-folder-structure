@@ -6,7 +6,7 @@ Folder structure and naming conventions for software projects.
 
     .
     ├── build               # Build files (alternatively `dist`)
-    ├── data                # Data files such as icons and images (alternatively `resources` or `res`)
+    ├── data                # Data files such as icons and images (alternatively `resources`)
     ├── doc                 # Documentation files (alternatively `docs`)
     ├── src                 # Source files (alternatively `lib` or `app`)
     ├── test                # Automated tests (alternatively `spec` or `tests`)
