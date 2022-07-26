@@ -5,45 +5,37 @@ Folder structure and naming conventions for software projects.
 ## A common top-level directory layout
 
     .
-    ├── build               # Build files (alternatively `dist`)
-    ├── data                # Data files such as icons and images (alternatively `resources`)
+    ├── data                # Data files such as icons and fonts (alternatively `resources`)
     ├── doc                 # Documentation files (alternatively `docs`)
     ├── src                 # Source files (alternatively `lib` or `app`)
     ├── test                # Automated tests (alternatively `spec` or `tests`)
     ├── LICENSE             # License file (alternatively `LICENSE.txt`, `LICENSE.md` or `COPYING`)
-    └── README.md           # Readme file (alternatively `README.txt`)
+    └── README.md           # Read me file (alternatively `README.txt`)
 
-### The `build` folder
+### The _data_ folder
 
-This folder contains build scripts or even the binary files for distribution.
-Alternatively, you can put them into the `dist`.
-
-    .
-    ├── ...
-    ├── build
-    │   ├── debian          # Scripts for Debian packing
-    │   ├── windows         # Scripts for Windows packing
-    │   └── ...             # Etc.
-    └── ...
-
-### The `data` folder
-
-This folder contains binary files, images, icons and other important data files for the project.
+This folder contains binary files, images, icons, fonts, and other important data files for the project (assets).
+Alternatively, you can put them into the `resources` folder.
 
     .
     ├── ...
     ├── data
     │   ├── icons           # Icons
     │   ├── images          # Images
+    │   ├── fonts           # Fonts
     │   └── ...             # Etc.
     └── ...
 
 > Examples:
 [Visual Studio Code](https://github.com/microsoft/vscode) `resources`,
 [Kdenlive](https://github.com/KDE/kdenlive) `data`,
-[Gnome Nautilus](https://github.com/GNOME/nautilus) `data`.
+[Amarok](https://github.com/KDE/amarok) `data`,
+[GIMP](https://github.com/GNOME/gimp) `data`,
+[Gnome Nautilus](https://github.com/GNOME/nautilus) `data`,
+[Logseq](https://github.com/logseq/logseq) `resources`,
+[Fritzing](https://github.com/fritzing/fritzing-app) `resources`.
 
-### The `doc` folder
+### The _doc_ folder
 
 This folder contains the documentation such as reference data into the project, which is usually stored into the `doc` or into the `docs` folder.
 
@@ -53,7 +45,7 @@ This folder contains the documentation such as reference data into the project, 
     │   ├── authors.md      # Authors description
     │   ├── changelog.md    # All notable changes and versions
     │   ├── faq.md          # Frequently asked questions
-    │   ├── todo.md         # To do list to be implemented
+    │   ├── todo.md         # To-do list to be implemented
     │   └── ...             # Etc.
     └── ...
 
@@ -63,12 +55,14 @@ This folder contains the documentation such as reference data into the project, 
 [Julia Language](https://github.com/JuliaLang/julia) `doc`,
 [Java JDK](https://github.com/adoptium/jdk) `doc`,
 [Kdenlive](https://github.com/KDE/kdenlive) `doc`,
+[Amarok](https://github.com/KDE/amarok) `doc`,
+[GIMP](https://github.com/GNOME/gimp) `docs`,
+[Gnome Nautilus](https://github.com/GNOME/nautilus) `docs`,
 [Node.js](https://github.com/nodejs/node) `doc`,
 [PDF.js](https://github.com/mozilla/pdf.js) `docs`,
-[MongoDB](https://github.com/mongodb/mongo) `docs`,
-[Gnome Nautilus](https://github.com/GNOME/nautilus) `docs`.
+[Logseq](https://github.com/logseq/logseq) `docs`.
 
-### The `src` folder
+### The _src_ folder
 
 The source files of a project are usually stored inside the `src` folder.
 Alternatively, you can put them into the `lib` (if you're developing a library), or into the `app` folder (if your application's source files are not supposed to be compiled).
@@ -89,12 +83,14 @@ Alternatively, you can put them into the `lib` (if you're developing a library),
 [Julia Language](https://github.com/JuliaLang/julia) `src`,
 [Java JDK](https://github.com/adoptium/jdk) `src`,
 [Kdenlive](https://github.com/KDE/kdenlive) `src`,
+[Amarok](https://github.com/KDE/amarok) `src`,
 [Node.js](https://github.com/nodejs/node) `src`,
 [PDF.js](https://github.com/mozilla/pdf.js) `src`,
-[MongoDB](https://github.com/mongodb/mongo) `src`,
-[Gnome Nautilus](https://github.com/GNOME/nautilus) `src`.
+[Gnome Nautilus](https://github.com/GNOME/nautilus) `src`,
+[Logseq](https://github.com/logseq/logseq) `src`,
+[Fritzing](https://github.com/fritzing/fritzing-app) `src`.
 
-### The `test` folder
+### The _test_ folder
 
 Automated tests are usually placed into the `test` or, less commonly, into the `spec` or `tests` folder.
 
@@ -114,11 +110,13 @@ Automated tests are usually placed into the `test` or, less commonly, into the `
 [Julia Language](https://github.com/JuliaLang/julia) `test`,
 [Java JDK](https://github.com/adoptium/jdk) `test`,
 [Kdenlive](https://github.com/KDE/kdenlive) `tests`,
+[Amarok](https://github.com/KDE/amarok) `tests`,
 [Node.js](https://github.com/nodejs/node) `test`,
 [PDF.js](https://github.com/mozilla/pdf.js) `test`,
-[Gnome Nautilus](https://github.com/GNOME/nautilus) `test`.
+[Gnome Nautilus](https://github.com/GNOME/nautilus) `test`,
+[Fritzing](https://github.com/fritzing/fritzing-app) `test`.
 
-### The `LICENSE` file
+### The _LICENSE_ file
 
 If you want to share your work with others, please consider choosing an open
 source license and include the text of the license into your project.
@@ -133,11 +131,30 @@ For more information on how to choose a license for an open-source project, plea
 [Julia Language](https://github.com/JuliaLang/julia) `LICENSE.md`,
 [Java JDK](https://github.com/adoptium/jdk) `LICENSE`,
 [Kdenlive](https://github.com/KDE/kdenlive) `COPYING`,
+[Amarok](https://github.com/KDE/amarok) `COPYING`,
 [Node.js](https://github.com/nodejs/node) `LICENSE`,
 [PDF.js](https://github.com/mozilla/pdf.js) `LICENSE`,
-[MongoDB](https://github.com/mongodb/mongo) `LICENSE.txt`,
-[Gnome Nautilus](https://github.com/GNOME/nautilus) `LICENSE`.
+[GIMP](https://github.com/GNOME/gimp) `LICENSE`,
+[Gnome Nautilus](https://github.com/GNOME/nautilus) `LICENSE`,
+[Logseq](https://github.com/logseq/logseq) `LICENSE.md`,
+[Fritzing](https://github.com/fritzing/fritzing-app) `LICENSE`.
 
-### The `README.md` file
+### The _README.md_ file
 
 See a template in.
+
+## Other common directories
+
+    .
+    ├── build               # Compiled files (or scripts for building)
+    ├── dist                # Production files for distribution
+    ├── po                  # Translation files for internationalization (i18n)
+    └── ...
+
+Sometimes the `build` folder is used for maintaining scripts for building (or even for packaging).
+In this case, the folder contains scripts to build the software for different platforms (Windows, Linux, Mac) or different formats (Flatpak, Docker).
+
+> Examples:
+[Visual Studio Code](https://github.com/microsoft/vscode) `build`,
+[GIMP](https://github.com/GNOME/gimp) `build`,
+[Kdenlive](https://github.com/KDE/kdenlive) `packaging`.
