@@ -158,3 +158,10 @@ In this case, the folder contains scripts to build the software for different pl
 [Visual Studio Code](https://github.com/microsoft/vscode) `build`,
 [GIMP](https://github.com/GNOME/gimp) `build`,
 [Kdenlive](https://github.com/KDE/kdenlive) `packaging`.
+
+## Acknowledgments
+
+This project is inspired on works from:
+
+- [Konstantin Tarkus](https://github.com/koistya)
+- [Billie Thompson](https://github.com/PurpleBooth)
