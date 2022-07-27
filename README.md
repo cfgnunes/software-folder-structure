@@ -141,7 +141,7 @@ For more information on how to choose a license for an open-source project, plea
 
 ### The _README.md_ file
 
-See a template in.
+See a template in [README-template.md](README-template.md).
 
 ## Other common directories
 
