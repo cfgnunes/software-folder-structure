@@ -53,11 +53,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/cfgnunes/wxlame/issues/new) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/cfgnunes/software-folder-structure/issues/new) for details on our code of conduct, and the process for submitting pull requests to us.
 
 If you spot a bug, or want to improve the code, or even make the content better, you can do the following:
 
-- [Open an issue](https://github.com/cfgnunes/wxlame/issues/new) describing the bug or feature idea;
+- [Open an issue](https://github.com/cfgnunes/software-folder-structure/issues/new) describing the bug or feature idea;
 - Fork the project, make changes, and submit a pull request.
 
 ## Versioning
